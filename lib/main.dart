@@ -60,7 +60,24 @@ class _ColorChangeScreenState extends State<ColorChangeScreen> {
             child: Container(
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
-                
+                //color: Colors.white.withOpacity(0.7),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  // Icon(Icons.touch_app,size: 80, color: Colors.black),
+                  //SizedBox(height:10),
+                  Text(
+                    "Tap",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.center,
+                  )
+                ],
               ),
             )
           ),
